@@ -40,7 +40,7 @@ function BikeDashboard() {
       const script = document.createElement('script');
       script.id = scriptId;
       script.src =
-        'https://apis.mappls.com/advancedmaps/v1/<your-api-key>/map_load?v=1.5';
+        'https://apis.mappls.com/advancedmaps/v1/c45331da12ea977d69c6ec5988dea0cb/map_load?v=1.5';
       script.async = true;
       script.onload = handleLocation;
       document.body.appendChild(script);
