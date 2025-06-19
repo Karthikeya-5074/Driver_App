@@ -48,7 +48,7 @@ function SpeedPanel() {
           />
         </svg>
         <div className="absolute inset-0 flex items-center justify-center">
-          <p className="text-4xl font-semibold text-gray-800">{speed} km/h</p>
+          <p className="text-xl font-semibold text-gray-800">{speed} km/h</p>
         </div>
       </div>
       <div className="w-full md:w-24 text-center font-semibold text-gray-800 space-y-2">

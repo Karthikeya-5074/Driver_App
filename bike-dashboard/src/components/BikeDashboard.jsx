@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import SpeedPanel from './SpeedPanel';
 
 const tabs = ["Overview", "Trip Info", "Maintenance", "Alerts"];
 
@@ -53,8 +54,8 @@ function BikeDashboard() {
     <div className="space-y-4">
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
         <div id="map" className="w-full md:w-3/5 h-[400px] rounded-xl shadow-lg"></div>
-        <div className="w-full md:w-2/5 h-64 bg-white rounded shadow flex items-center justify-center">
-          <p>Speedometer</p>
+        <div className="w-full md:w-2/5 h-84 bg-white rounded shadow flex items-center justify-center">
+          <SpeedPanel />
         </div>
       </div>
       <div className="bg-white rounded shadow">
